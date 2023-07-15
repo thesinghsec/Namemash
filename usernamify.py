@@ -1,5 +1,5 @@
 # UserNamify - Generate list of usernames from a person's first and last name.
-
+#!/usr/bin/env python
 import sys
 import os.path
 
