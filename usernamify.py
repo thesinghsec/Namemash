@@ -1,4 +1,4 @@
-# NameMash - Generate possible usernames from a person's first and last name
+# UserNamify - Generate list of usernames from a person's first and last name
 
 import sys
 import os.path
@@ -31,17 +31,17 @@ if __name__ == '__main__':
 
             # Create possible usernames
             usernames = [
-                first_name + last_name,          # johndoe
-                last_name + first_name,          # doejohn
-                first_name + '.' + last_name,    # john.doe
-                last_name + '.' + first_name,    # doe.john
-                last_name + first_name[0],       # doej
-                first_name[0] + last_name,       # jdoe
-                last_name[0] + first_name,       # djoe
-                first_name[0] + '.' + last_name, # j.doe
-                last_name[0] + '.' + first_name, # d.john
-                first_name,                      # john
-                last_name                        # joe
+                first_name + last_name,          
+                last_name + first_name,          
+                first_name + '.' + last_name,    
+                last_name + '.' + first_name,    
+                last_name + first_name[0],       
+                first_name[0] + last_name,       
+                last_name[0] + first_name,       
+                first_name[0] + '.' + last_name, 
+                last_name[0] + '.' + first_name, 
+                first_name,                      
+                last_name                        
             ]
 
             # Print the generated usernames
