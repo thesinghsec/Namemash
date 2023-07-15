@@ -1,4 +1,4 @@
-# UserNamify - Generate list of usernames from a person's first and last name
+# UserNamify - Generate list of usernames from a person's first and last name.
 
 import sys
 import os.path
