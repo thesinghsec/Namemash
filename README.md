@@ -21,9 +21,7 @@ $ python3 namemash.py names.txt
 Suppose you have a file named `names.txt`, which contains the following names:
 
 John Doe
-
 Jane van Doe
-
 Alice Smith
 
 
@@ -33,29 +31,17 @@ Running the script with this input will generate the following list of possible 
 johndoe
 
 doejohn
-
 john.doe
-
 doe.john
-
 doej
-
 jdoe
-
 djane
-
 j.van.doe
-
 d.jane
-
 john
-
 doe
-
 jane
-
 van
-
 
 ## Credits
 
