@@ -19,17 +19,14 @@ $ python3 namemash.py names.txt
 ## Example
 
 Suppose you have a file named `names.txt`, which contains the following names:
-
+```
 John Doe
 Jane van Doe
 Alice Smith
-
-
-
+```
 Running the script with this input will generate the following list of possible usernames:
 
-johndoe
-
+```johndoe
 doejohn
 john.doe
 doe.john
@@ -42,7 +39,7 @@ john
 doe
 jane
 van
-
+```
 ## Credits
 
 This script was created by [superkojiman](https://gist.github.com/superkojiman).
