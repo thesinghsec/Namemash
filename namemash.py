@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 '''
-NameMash by superkojiman
+NameMash by superkojiman.
 
 Generate a list of possible usernames from a person's first and last name. 
 
